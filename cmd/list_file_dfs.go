@@ -16,8 +16,8 @@ import (
 // listFileDfsCmd represents the listFileDfs command
 var listFileDfsCmd = &cobra.Command{
 	Use:   "dfs",
-	Short: "traverse file in current directory with dfs",
-	Long: `traverse file in current directory with dfs
+	Short: "file traverse in current directory with dfs",
+	Long: `file traverse in current directory with dfs
 	and list file size with sort by high to low`,
 	Run: func(cmd *cobra.Command, args []string) {
 		printAllFileWithDfs(args[0])

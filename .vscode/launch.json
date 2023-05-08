@@ -12,7 +12,7 @@
             "program": "${fileDirname}",
             "args": [
                 "bfs",
-                "D:\\WorkSpace\\VSCode\\refs4c"
+                "${workspaceFolder}"
             ]
         }
     ]

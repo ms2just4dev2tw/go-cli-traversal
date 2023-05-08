@@ -15,8 +15,8 @@ import (
 // listFileBfsCmd represents the listFileBfs command
 var listFileBfsCmd = &cobra.Command{
 	Use:   "bfs",
-	Short: "traverse file in current directory with bfs",
-	Long: `traverse file in current directory wirh bfs
+	Short: "file traverse in current directory with bfs",
+	Long: `file traverse in current directory wirh bfs
 	and list file size with sort by high to low`,
 	Run: func(cmd *cobra.Command, args []string) {
 		printAllFileWithBfs(args[0])

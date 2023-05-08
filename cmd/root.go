@@ -17,7 +17,7 @@ var cfgFile string
 var rootCmd = &cobra.Command{
 	Use:   "lf",
 	Short: "list file",
-	Long:  `list system file in obtain directory, support traverse way of dfs and dfs`,
+	Long:  `list system file in obtain directory, support traversal way of dfs and dfs`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },

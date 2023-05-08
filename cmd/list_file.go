@@ -13,8 +13,8 @@ import (
 // listFileCmd represents the listFile command
 var listFileCmd = &cobra.Command{
 	Use:   "c",
-	Short: "traverse file in current directory",
-	Long: `traverse file in current directory
+	Short: "file traverse in current directory",
+	Long: `file traverse in current directory
 	and list file size with sort by high to low`,
 	Run: func(cmd *cobra.Command, args []string) {
 		printCurrentFile(args[0])
